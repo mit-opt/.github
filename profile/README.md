@@ -31,9 +31,21 @@
    * NAV_STATE: (string)
      * NAV_SPEED  (m/s)
      * NAV_HEADING (degrees)
-     * NAV_LAT (float)
-     * NAV_LONG (float)
+     * NAV_LAT (double)
+     * NAV_LONG (double)
+     * EX: "NAV_SPEED=`<m/s>`,NAV_HEADING=`<deg>`,NAV_LAT=`<double>`,NAV_LONG=`<double>`"
 
    * ENG_STATUS_STDB (bool)
 
    * ENG_STATUS_PORT (bool)
+     
+   * STATION_KEEP_UPDATE (string)
+     * LAT (double)
+     * LONG (double)
+     * RADIUS (drift radius, in meters, around station point)
+     * Ex: "LAT=`<double>`,LONG=`<double>`,RADIUS=`<meters>`"
+    
+   * WAYPOINT_UPDATE (string)
+     * LAT (double)
+     * LONG (double)
+     * EX: "LAT=`<double>`,LONG=`<double>`,...,LAT=`<double>`,LONG=`<double>`"
