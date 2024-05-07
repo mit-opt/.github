@@ -21,6 +21,16 @@
    * DESIRED_ENG_STATUS_PORT (bool)
      * 0: Off
      * 1: ON
+    
+   * STATION_KEEP_RESPONSE (string)
+     * LAT (Decimal Latitude)
+     * LONG (Decimal Longitude)
+     * RADIUS (m)
+     * DISTANCE_TO_TARGET (m)
+     * TIMER_ACTIVE (bool)
+     * TIMER (sec)
+     * VALID (bool)
+     * EX: "LAT=`<Decimal Latitude>`,LONG=`<Decimal Longitude>`,RADIUS=`<m>`,DISTANCE_TO_TARGET=`<m>`,TIMER_ACTIVE=`<bool>`,TIMER=`<sec>`,VALID=`<bool>`"  
 
    
 
@@ -43,7 +53,7 @@
      * LAT (double)
      * LONG (double)
      * RADIUS (drift radius, in meters, around station point)
-     * Ex: "LAT=`<double>`,LONG=`<double>`,RADIUS=`<meters>`"
+     * Ex: "LAT=`<Decimal Latitude>`,LONG=`<Decimal Longitude>`,RADIUS=`<meters>`,SPEED=`<m/s>`"
     
    * WAYPOINT_UPDATE (string)
      * LAT (double)
