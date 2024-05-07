@@ -33,7 +33,7 @@
      * NAV_HEADING (degrees)
      * NAV_LAT (double)
      * NAV_LONG (double)
-     * EX: "NAV_SPEED=`<m/s>`,NAV_HEADING=`<deg>`,NAV_LAT=`<double>`,NAV_LONG=`<double>`"
+     * EX: "NAV_SPEED=`<m/s>`,NAV_HEADING=`<deg>`,NAV_LAT=`<Decimal Latitude>`,NAV_LONG=`<Decimal Longitude>`"
 
    * ENG_STATUS_STDB (bool)
 
@@ -48,4 +48,4 @@
    * WAYPOINT_UPDATE (string)
      * LAT (double)
      * LONG (double)
-     * EX: "LAT=`<double>`,LONG=`<double>`,...,LAT=`<double>`,LONG=`<double>`"
+     * EX: "LAT=`<Decimal Latitude>`,LONG=`<Decimal Longitude>`,...,LAT=`<double>`,LONG=`<double>`"
